@@ -18,6 +18,7 @@ namespace Final
         static void Main(string[] args)
         {
             Point start = new Point(Constants.MAX_X / 2, Constants.MAX_Y / 2);
+            Point tree_start = new Point(0, Constants.MAX_Y);
             Color color = Constants.GREEN;
 
             // create the cast
@@ -25,7 +26,7 @@ namespace Final
             cast.AddActor("squirral", new Actor(start, color));
             cast.AddActor("squirral", new Actor(start, color));
             cast.AddActor("squirral", new Actor(start, color));
-
+            cast.AddActor("tree",     new Actor(tree_start, color));
             // create the services
             KeyboardService keyboardService = new KeyboardService();
             VideoService videoService = new VideoService(false);
