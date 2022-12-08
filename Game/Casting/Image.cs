@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Byui.Games.Casting
+namespace Final.Games.Casting
 {
     /// <summary>
     /// A visible Actor.

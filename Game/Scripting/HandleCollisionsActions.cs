@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using Unit05.Game.Casting;
-using Unit05.Game.Services;
+using Final.Game.Casting;
+using Final.Game.Services;
 
 
-namespace Unit05.Game.Scripting
+namespace Final.Game.Scripting
 {
     /// <summary>
     /// <para>An update action that handles interactions between the actors.</para>
@@ -30,7 +30,7 @@ namespace Unit05.Game.Scripting
         {
             if (_isGameOver == false)
             {
-                HandleFoodCollisions(cast);
+                HandleBulletCollisions(cast);
                 HandleSegmentCollisions(cast);
                 HandleGameOver(cast);
             }
@@ -40,7 +40,7 @@ namespace Unit05.Game.Scripting
         /// Updates the score nd moves the food if the snake collides with it.
         /// </summary>
         /// <param name="cast">The cast of actors.</param>
-        private void HandleFoodCollisions(Cast cast)
+        private void HandleBulletCollisions(Cast cast)
         {
             Snake snake = (Snake)cast.GetFirstActor("snake");
             Score score = (Score)cast.GetFirstActor("score");

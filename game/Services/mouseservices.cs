@@ -1,7 +1,7 @@
 using System.Numerics;
 
 
-namespace Unit06.Game.Services
+namespace Final.Game.Services
 
 {
     public interface IMouseService
