@@ -1,7 +1,7 @@
 using System.Numerics;
 
 
-namespace Byui.Games.Services
+namespace Unit05.Game.Services
 {
     public interface IMouseService
     {
