@@ -1,8 +1,8 @@
-using Unit05.Game.Casting;
-using Unit05.Game.Services;
+using Final.Game.Casting;
+using Final.Game.Services;
 
 
-namespace Unit05.Game.Scripting
+namespace Final.Game.Scripting
 {
     /// <summary>
     /// <para>An input action that controls the snake.</para>

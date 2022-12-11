@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using Unit05.Game.Casting;
-using Unit05.Game.Scripting;
-using Unit05.Game.Services;
+using Final.Game.Casting;
+using Final.Game.Scripting;
+using Final.Game.Services;
 
 
-namespace Unit05.Game.Directing
+namespace Final.Game.Directing
 {
     /// <summary>
     /// <para>A person who directs the game.</para>
