@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Final.Games.Casting
+namespace Final.Game.Casting
 {
     /// <summary>
     /// A visible Actor.

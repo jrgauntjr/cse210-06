@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 
 
-namespace Final.Games.Casting
+namespace Final.Game.Casting
 {
     /// <summary>
     /// A validator for string and numeric types.
